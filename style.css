@@ -382,9 +382,15 @@ nav .fas{
     width: 100%;
   }
   .span h5{
-    margin-top: -10px;
+    margin-top: -5px;
   }
   .fas{
     margin-top: 10px;
+  }
+  #header{
+    height: 65vh;
+    margin-top: 200px;
+    width: 95%;
+    margin: auto;
   }
 }
