@@ -401,4 +401,7 @@ nav .fas{
   #portfolio{
     padding: 25px;
   }
+  .services-list p{
+    font-size: 14px;
+  }
 }
