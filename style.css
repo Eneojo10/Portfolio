@@ -337,8 +337,8 @@ nav .fas{
     top: 0;
     right: -200px;
     width: 150px;
-    height: 100vh;
-    padding-top: 10px;
+    height: 80vh;
+    padding-top: 25px;
     display: block;
     z-index: 2;
     transition: right 0.30s;
@@ -371,13 +371,13 @@ nav .fas{
     font-size: 14px;
   }
   .about-col-1{
-    width: 95%;
+    width: 100%;
     margin: auto;
   }
-  .about-col-1 img{
+  /* .about-col-1 img{
     width: 100%;
     height: 350px;
-  }
+  } */
   .services-list div{
     width: 100%;
   }
@@ -392,5 +392,11 @@ nav .fas{
     margin-top: 200px;
     width: 95%;
     margin: auto;
+  }
+  #services{
+    padding: 25px;
+  }
+  #portfolio{
+    padding: 25px;
   }
 }
