@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f17dee49bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <div class="span">
+               <h5><span class="ecolor">E</span>neojo.</h5>
+            </div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+           
+        </nav>
+        <div class="header-text">
+            <p>Full-Stack Web Developer / UI/UX</p>
+            <h1>Hi, I'm <span>Eneojo </span><br/> Sunday From Nigeria</h1>
+        </div>
+       </div>
+       <!-- ---------------About------------ -->
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/IMG_2101.JPG" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h5 class="sub-title">About Me</h5>
+                    <p>I am Ameh Sunday Eneojo, a passionate Full-Stack Web Developer and Video Editor from Kogi State. With expertise in front-end and back-end technologies, I specialize in building scalable, user-friendly web applications. I also have a keen eye for visual storytelling through video editing. I thrive on problem-solving, continuous learning, and bringing creative ideas to life through technology.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>FrontEnd Developer</span><br/>Designing Web/App interfaces
+                            </li>
+                            <li>
+                                <span>BackeEnd Developer</span><br/>Web App Development
+                            </li>
+                            <li>
+                                <span>Video Editor</span><br/>Editing and Producing Videos / Live Streaming
+                            </li>
+                             
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2021-2022</span><br/>Full-stack Developer  at Rework Academy
+                            </li>
+                            <li>
+                                <span>2022 - 2023</span><br/>Team lead at  Rework Academy
+                            </li>
+                            <li>
+                                <span>2023 - 2024</span><br/>Video Editor at Renown Media
+                            </li>
+                            
+                             
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2015 - 2019</span><br/>Mass Communication Kogi State University
+                            </li>
+                            
+                             
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>   
+   <!-- --------------servives---------- -->
+    <div id="services">
+        <div class="container">
+            <h5 class="sub-title">My Services</h5><br/>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Web Design</h4>
+                    <p>Web design involves creating visually appealing, user-friendly, and responsive websites that provide a seamless user experience. It includes layout design, color schemes, typography, and interactive elements to ensure websites are both functional and engaging. A well-designed website enhances brand identity and improves online presence.</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-powerpoint"></i>
+                    <h4>Microsoft Powerpoint</h4>
+                    <p>Microsoft PowerPoint is a powerful presentation software widely used for creating professional slideshows, reports, and visual content. It enables users to design engaging presentations with customizable templates, animations, and multimedia integration. Whether for business, education, or personal projects, PowerPoint helps deliver ideas effectively.</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h4>Video Editing</h4>
+                    <p>Video editing is the process of manipulating and arranging video clips to create a polished final product. It involves cutting, enhancing visuals, adding effects, and synchronizing audio to deliver engaging and professional content. Whether for films, social media, or marketing, video editing plays a crucial role in storytelling and audience engagement.</p>
+                    <a href="">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------portfolio--------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h5 class="sub-title">My Work</h5>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/vd.png" >
+                    <div class="layer">
+                        <h5>Real Estate App</h5>
+                        <!-- <p>Hello world</p> -->
+                        <a href="https://www.vidashcityshelters.com.ng/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/vault.png" >
+                    <div class="layer">
+                        <h5>Vault App</h5>
+                        <!-- <p>Hello world</p> -->
+                        <a href="https://vaultwinltd.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/irivs.png" >
+                    <div class="layer">
+                        <h5>Estate Management App</h5>
+                        <!-- <p>Hello world</p> -->
+                        <a href="https://irivs.onrender.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                   
+                </div>
+              
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+     <!-- -----------Contact---------- -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h3 class="sub-title">Contact Me</h3>
+                    <p><i class="fa-solid fa-paper-plane"></i>amehsunday078@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>07062304776</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Ameh Sunday CV_.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Eneojo 2023</p>
+        </div>
+      </div>
+   <script>
+    let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script> 
+
+   <script>
+    let sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right="0";
+    }
+    function closemenu() {
+        sidemenu.style.right="-200px";
+    }
+   </script>
+</body>
+</html>
